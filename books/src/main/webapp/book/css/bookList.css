@@ -1,0 +1,56 @@
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.btn-delete {
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-create {
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-delete:hover,
+.btn-create:hover {
+    background-color: #0086cc;
+}
+
+a {
+    color: #00a8ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

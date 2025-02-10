@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.detail-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.detail-container p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-back,
+.btn-edit,
+.btn-delete {
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-back:hover,
+.btn-edit:hover,
+.btn-delete:hover {
+    background-color: #0086cc;
+}
+
+/* 상세 정보 스타일 */
+.detail-container p {
+    display: flex;
+    margin: 10px 0;
+    padding: 8px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.detail-container p:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+    .button-group {
+        flex-direction: column;
+    }
+    
+    .button-group button {
+        width: 100%;
+    }
+}
